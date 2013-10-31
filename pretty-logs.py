@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Pretiffy the logs
+Prettify the logs
 
 Usage:
 streaming: tail -f mylogs.log | ./pretty-logs.py 
