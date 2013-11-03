@@ -52,6 +52,8 @@ def clean(d):
                     )
                     trace.append(s)
                 d['trace'] = trace
+            else:
+                d[k] = clean(v)
     return d
 
 while (1):
